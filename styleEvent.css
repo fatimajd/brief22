@@ -1,0 +1,383 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+  .logo{
+
+    padding-left: 13%;
+    padding-top: 19px;
+    height: auto;
+  }
+
+  header {
+   
+    width: 100%;
+    height: 12%;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    display: flex;
+}
+  header ul {
+    margin: 20px;
+  } 
+
+     header ul li {
+        
+        display: inline-block;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-family:  sans-serif;
+       text-transform: uppercase;
+       font-weight: 510;
+
+    }
+  
+    header ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding:  0px  2px;
+  }
+
+ header a:hover {
+  color: #b32137;
+}
+.bg{
+
+   
+    width: 100%;
+    height: 17.1%;
+    left: 0%;
+    right: 0%;
+  background:#b32137;
+  margin-block:0px;
+ 
+   
+    display: flex;
+}
+h2{
+  text-align: center;
+  color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+     font-family: sans-serif;
+    line-height: 45px;
+    padding: 7px 678px;
+    font-weight: 500;
+    
+}
+
+.imgg{
+  background-image: url('images/World-Book-Day.jpg');
+  width: 100%;
+  height:60%;
+  margin-right: 100px;
+  filter: blur(8px);
+  z-index: -1;
+  opacity: 0.5;
+  position: absolute;
+}
+.headTr{
+  width: 100%;
+  height:400px;
+  margin-right: 100px;
+  padding: 0;
+}
+.tria{
+  position: relative;
+  text-align: center;
+  left: 20%;
+  top: 15%;
+  width:30% ;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  border-top-left-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+   transition: 1s ease;
+}
+.tria:hover{
+background-color: #81266C;
+}
+.imgbook{
+background-image: url('images/Books.jpg');
+background-size: cover;
+background-position: right;
+     position: relative;
+  left: 50%;
+  top:-85%;
+  width:30% ;
+  height: 400px;
+  align-items: center;
+  border-top-right-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+}
+
+.tria h1{
+  font-size: 70px;
+  font-family: sans-serif;
+letter-spacing: .3rem;
+  position: relative;
+    top: 40px;
+    background: -webkit-linear-gradient(#eee,#E73955);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+@media screen and (max-width: 1000px){
+    .tria h1{
+  font-size: 50px;
+  margin-top: 30px;
+}
+}
+
+
+.tria p{
+  font-size: 23px;
+  font-family: gabriola;
+
+  position: relative;
+
+   color: #F5EAEB;
+   margin-top: 0%;
+}
+
+@media screen and (max-width: 1000px){
+.tria p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+}
+
+.tria b{
+  font-size: 50px;
+  font-family: gabriola;
+
+  position: relative;
+    margin-left: 50%;
+   color: #E73955;
+ 
+}
+
+@media screen and (max-width: 1000px){
+.tria b{
+    font-size: 30px;
+    margin-top: 30px;
+}
+}
+
+
+
+.textbook{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+ display: inline-block;
+   overflow: hidden;
+  margin: 90px;
+  letter-spacing: .1rem;
+  padding: 0px;
+    margin: 10% 10%;
+
+}
+.febr{
+  font-family: sans-serif;
+  margin-left: 5%;
+  
+}
+
+
+
+.box{
+
+  width: 280px;
+  height: 500px;
+ display: inline-block;
+   overflow: hidden;
+  margin: 45px;
+  padding: 0px;
+background: white;
+border-radius: 50px;
+border:2px;
+border-style: solid;
+border-color: black;
+}
+.box:hover{
+  background: #444;
+}
+
+    
+    .boxIn{
+      position: relative;
+        width: 400px;
+        height:300px;
+        overflow: hidden;
+    }
+    
+    
+.boxIn img{
+
+  margin: 0px;
+  padding: 0px;
+  width: 70%;
+   height: 100%;
+
+  
+  
+}
+
+.prg{
+  width: 250px;
+  display: flex;
+  flex-direction:column;
+  margin-left: 30px;
+  
+}
+.prg h1{
+  font-family: cursive;
+}
+.prg h1:hover{
+  font-size: 35px;
+}
+.prg b{
+  font-family: sans-serif;
+  color: #E73955;
+}
+
+.contr{
+  width: 100%;
+  height: 50px;
+  
+  background-color: white;
+
+}
+.container{
+      display: flex;
+      flex-direction: row;
+    }
+  .footer {
+     background: url(images/footer-bg.jpg);
+     padding-bottom: 35px;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+ .footer .Follow {
+    margin-bottom: 27px;
+}
+
+
+ .footer .Follow h3 {
+     color: #fff;
+     font-size: 25px;
+     line-height: 30px;
+     font-weight: 600;
+border-bottom: #fff solid 1px;
+    border-bottom-width: 1px;
+border-width: 1px;
+display: inline-block;
+padding-bottom: 2px;}
+ .coa {
+    color: #12dc12;
+}
+ 
+ 
+ .footer .Newsletter  {
+
+    padding: 13px 26px;
+        padding-top: 10px;
+        padding-right: 26px;
+        padding-bottom: 10px;
+        padding-left: 26px;
+    border: #fff solid 1px;
+    width: 500px;
+
+
+ }
+
+.footer .Subscribe {
+
+    padding: 10px 46px;
+margin-left: -3px;
+border: #0e0c0c solid 1px;
+background: #0e0c0c;
+color: #fff;
+
+}
+
+ ul.location_icon {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     float: left;
+}
+ ul.location_icon li {
+     float: left;
+     height: 70px;
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-right: 20px;
+}
+
+ul.location_icon li:last-child { padding-right: 0px; }
+ 
+ul.location_icon li a{
+ margin-bottom: 23px;}
+ 
+ ul.location_icon span {
+    font-size: 17px;
+     font-weight: 400;
+}
+ 
+ .copyright {
+     background-color: #fff;
+     padding: 10px 0px;
+}
+ .copyright p {
+     color: #120f0f;
+     font-size: 16px;
+     text-align: center;
+}
+ .copyright a {
+    color: #120f0f;
+}
+ .copyright a:hover {
+    color: #81256c;
+}
+.dd{
+  padding-left: 90px;
+  }
+  .sub{
+    display: flex;
+    flex-direction: row;
+  }
+  .read-more {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.read-more a{
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     text-decoration: none;
+     background-color: #81256c;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin:  0px  0px 60px 0px;
+   }
+
+.read-more a:hover {background-color:  #000;}

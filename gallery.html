@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    
+    
+<style type="text/css">
+
+  /*.loader_bg {
+     position: fixed;
+     z-index: 9999999;
+     background: #fff;
+     width: 100%;
+     height: 100%;
+
+}
+ .loader {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .loader img {
+     width: 280px;
+}*/
+body{
+ 
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background:white;
+  flex-wrap: wrap;
+  overflow-x: hidden; 
+}
+  .logo{
+
+    padding-left: 13%;
+    padding-top: 19px;
+    height: auto;
+  }
+
+  header {
+   
+    width: 100%;
+    height: 12%;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    display: flex;
+}
+
+/*@media screen and (max-width: 1000px){
+    header{
+ width: 100%;
+    height: 20%;
+}
+}*/
+
+
+  nav ul {
+    margin: 20px;
+  } 
+
+     nav ul li {
+        
+        display: inline-block;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-family: 'poppins', sans-serif;
+       text-transform: uppercase;
+       font-weight: 510;
+
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding:  0px  2px;
+  }
+
+
+ nav a:hover {
+  color: #b32137;
+}
+.bg{
+   width: 100%;
+    height: 17.1%;
+    left: 0%;
+    right: 0%;
+  background:#b32137;
+  margin:0px;
+ 
+   
+    display: flex;
+}
+.bg h2{
+   position: relative;
+  text-align: center;
+  color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+     font-family: sans-serif;
+    line-height: 45px;
+    padding: 3px 665px;
+    font-weight: 500;
+    
+}
+@media screen and (max-width: 1000px){
+    .bg h2{
+  font-size: 40px;
+  padding: 3px 400px;
+}
+}
+
+/*.abc{
+  
+      width: 300px;
+      height: 300px;
+      border:2px solid black;
+border-radius: 50%;
+      margin: 20px;
+      padding: 15px;
+}
+.abc:hover{
+  
+      width: 300px;
+      height: 300px;
+      border:2px solid black;
+border-radius: 10%;
+      margin: 20px;
+      padding: 15px;
+}*/
+
+
+
+
+        
+
+.mainBox{
+  text-align: center;
+}
+
+.box{
+  
+  width: 420px;
+  height: 700px;
+ display: inline-block;
+   overflow: hidden;
+  margin: 40px;
+  padding: 0px;
+
+}
+
+    
+    .boxIn{
+      position: relative;
+        width: 400px;
+        height:400px;
+        background: #444;
+        border-radius: 50px;
+        border:2px;
+        border-radius: 50px;
+        transition: 1s ease;
+        overflow: hidden;
+    }
+    
+    .boxIn:hover{
+    border: 9px dotted white;
+}
+.boxIn img{
+
+  margin: 50px;
+  padding: 20px;
+  width: 60%;
+   height: 60%;
+  transition:all linear 0.9s;
+  
+}
+.imghover{
+  
+  top: 0;
+  left: 0;
+opacity: 0;
+}
+
+.boxIn:hover img{
+  opacity: 0;
+
+}
+.boxIn:hover .imghover{
+  position: absolute;
+    margin: 0px;
+  padding: 0px;
+  opacity: 1;
+  width: 100%;
+   height: 100%;
+    
+}
+.Books{
+  font-family: sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+   padding-left: 0%;
+}
+.soustext{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #b32137;
+  text-align: center;
+  padding-left: 1%; 
+
+}
+
+.prg{
+  width: 400px;
+  display: flex;
+  flex-direction:column;
+  margin-left: 30px;
+  font-style: normal;
+ 
+  
+
+}
+
+
+.prg h1:hover{
+font-style: italic;
+}
+
+.contr{
+  width: 100%;
+  height: 50px;
+  
+  background-color: white;
+
+}
+.container{
+      display: flex;
+      flex-direction: row;
+    }
+    @media(max-width: 1000px){
+      .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .Newsletter {
+      width: 372px;
+    }
+    .Subscribe{
+      width: 150px;
+    }
+    }
+  .footer {
+     background: url(images/footer-bg.jpg);
+     padding-bottom: 35px;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+ .footer .Follow {
+    margin-bottom: 27px;
+}
+
+
+ .footer .Follow h3 {
+     color: #fff;
+     font-size: 25px;
+     line-height: 30px;
+     font-weight: 600;
+border-bottom: #fff solid 1px;
+    border-bottom-width: 1px;
+border-width: 1px;
+display: inline-block;
+padding-bottom: 2px;}
+ .coa {
+    color: #12dc12;
+}
+ 
+ 
+ .footer .Newsletter  {
+
+    padding: 13px 26px;
+        padding-top: 10px;
+        padding-right: 26px;
+        padding-bottom: 10px;
+        padding-left: 26px;
+    border: #fff solid 1px;
+    width: 500px;
+
+
+ }
+
+.footer .Subscribe {
+
+    padding: 10px 46px;
+margin-left: -3px;
+border: #0e0c0c solid 1px;
+background: #0e0c0c;
+color: #fff;
+
+}
+
+ ul.location_icon {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     display: flex;
+}
+ ul.location_icon li {
+     height: 70px;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     padding-right: 20px;
+}
+
+ul.location_icon li:last-child { padding-right: 0px; }
+ 
+ul.location_icon li a{
+ margin-bottom: 23px;}
+ 
+ ul.location_icon span {
+    font-size: 17px;
+     font-weight: 400;
+}
+ 
+ .copyright {
+     background-color: #fff;
+     padding: 10px 0px;
+}
+ .copyright p {
+     color: #120f0f;
+     font-size: 16px;
+     text-align: center;
+}
+ .copyright a {
+    color: #120f0f;
+}
+ .copyright a:hover {
+    color: #81256c;
+}
+.dd{
+  padding-left: 90px;
+  }
+  .sub{
+    display: flex;
+    flex-direction: row;
+  }
+  .read-more {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.read-more a{
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     text-decoration: none;
+     background-color: #81256c;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin:  0px  0px 60px 0px;
+   }
+
+.read-more a:hover {background-color:  #000;}
+
+#checkbox {
+    display: none;
+    float: right;
+}
+
+
+@media(max-width: 1000px){
+
+header {
+  position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #22292F;
+    /*padding: 10px 0;
+    padding: 0%;
+    padding-bottom: 13%;*/
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 30px;
+    background: #81256c;
+    padding-bottom: 1%;
+    width: 864px;
+    height: 20%;
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.logo {
+  position: absolute;
+  padding-top: 0;
+    height: 51%;
+    width: 50%;
+    
+}
+.menu-icon {
+    font-size: 2.4em;
+    color: #ffffff;
+    line-height: 50px;
+}
+nav {
+     display: block;
+    position: absolute;
+    background-color: #FFF;
+    top:232px;
+    width: 100%;
+    height: 0;
+
+}
+nav ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 0%;
+    right: 0%;
+
+}
+nav ul li {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li a {
+font-size: 30px;
+    padding: 13px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #eb6f4a;
+}
+#checkbox {
+
+    display: none;
+    float: right;
+}
+#checkbox:checked ~ nav{
+  height: auto;
+  padding-top: 0px;
+      width: 916px;
+    right: 4%;
+}
+}
+#checkbox:checked ~ nav ul {
+    margin-top: 10px;
+    max-height: 403px;
+    padding: 15px 0;
+    transition: all 0.5s;
+
+}
+
+    }
+</style>
+
+
+
+
+
+   </head>
+
+
+
+
+<body>
+  <!-- <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div> -->
+      
+ <header class="menu">
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <div class="menu-wrap">
+             <label class="right" for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+            <input type="checkbox" id="checkbox">
+
+            <nav>
+                <ul>  
+                 <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About us</a></li>
+                    <li class="active"><a href="books.html">OUR BOOKS</a></li>
+                     <li><a href="library.html">LIBRARY</a></li>
+                    <li><a href="gallery.html"style="color:#b32137;">GALLERY</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                    <li class="icons"> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
+                                 <li class="icons"> <a href="#"><img src="images/top-icon.png" alt="#" /></a> </li>
+                              
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+                <div class="bg">
+                          <center>
+                          <h2>GALLERY</h2></center>
+                        </div>
+<h1 class="Books">Bestsellers</h1>
+<p class="soustext">These are the books that our customers love the most.</p>
+
+<div class="mainBox">
+
+
+
+ <div class="box">
+   <div class="boxIn">
+      <img src="images/chanel.jfif" >
+      <img src="images/9780500023440_in03_chanel-catwalk.jpg" class="imghover">
+    </div>
+   <div class="prg">
+                  <h1>Chanel Catwalk</h1>
+Anchored around the idea of nature as nourishment, The Kinfolk Garden explores lush gardens introduces the inspiring people who coax them into bloom.
+</div>
+
+   
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/Kinfolk-Garden.jpg" >
+  <img src="images/mendo-kinfolk-garden1-2000x1500-c-default.jpg" class="imghover">
+    </div>
+    <div class="prg">
+        <h1>The Kinfolk Garden </h1>
+
+The definitive overview of Karl Lagerfeld and Virginie Viard's creations for Chanel, 
+featuring over 180 collections presented through original
+    </div>
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/mendo-book-amsterdam-metropolitan-village-cover-600x0-c-default.jpg" >
+      <img src="images/amstrdam.jpg" class="imghover">
+    </div>
+    <div class="prg">
+        <h1>Amsterdam</h1>
+Our bestseller on our beloved city Amsterdam is now available in a mid-size edition.
+    </div>
+  </div>
+
+
+
+  
+
+
+
+   <h1 class="Books">New books</h1>
+<p class="soustext">If they're new and relevant, and on one of our favorites topics, you'll find them here.</p>
+
+
+
+
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/mendo-avant-arte-1-2000x2000-c-default.jpg" >
+  <img src="images/mendo-avant-arte-17-1500x1875-c-default.jpg" class="imghover">
+    </div>
+    <div class="prg">
+ <h1> New Renaissance</h1>
+Highlighting 15 international artists in their studios, this book offers an insight into the new direction of the international art world. Limited to 999 copies, available exclusively at MENDO and Avant Arte.
+
+    </div>
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/mendo-the-ideal-city-2-1500x1875-c-default.jpg" >
+  <img src="images/mendo-the-ideal-city-5-2000x2500-c-default.jpg" class="imghover">
+  
+    </div>
+    <div class="prg">
+         <h1>The Ideal City</h1>
+
+The Ideal City takes a holistic and multidisciplinary approach to rethinking how we could design, plan, build and share our cities going forward.
+
+    </div>
+  </div>
+
+
+   <div class="box">
+   <div class="boxIn">
+       <img src="images/36507992._SX318_.jpg" >
+  <img src="images/mendo-why-have-there-been-no-great-woman-artists-2_1-2000x1500-c-default.jpg" class="imghover">
+  
+    </div>
+    <div class="prg">
+ <h1>Why Have There Been No Great
+Women Artists?</h1>
+Linda Nochlin dismantles the very concept of greatness, unraveling the basic assumptions that created the male-centric genius in art.
+    </div>
+  </div>
+
+
+
+
+
+<h1 class="Books">Fashion books</h1>
+<p class="soustext">We're known for our impressive collection of fashion books on the relevant fashion houses, designers, models, magazines and more.</p>
+
+
+
+<div class="box">
+   <div class="boxIn">
+  <img src="images/9782081513488.jpg" >
+  <img src="images/mendo-dior-in-bloom-3-2000x1500-c-default.jpg" class="imghover">
+     </div>
+    <div class="prg">
+          <h1>Dior in Bloom</h1>
+Celebrating Dior's floral inspirations in fashion and perfume, this unique volume features a portfolio of rose portraits by photographer Nick Knight.
+
+    </div>
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/OIP.jfif" >
+  <img src="images/mendo-michel-comte-garden-of-beauty-5-2000x1500-c-default.jpg" class="imghover">
+  
+    </div>
+    <div class="prg">
+ <h1>Michel Comte: Garden of Beauty</h1>
+An exploration of Comte’s recent use of flowers to wrap buildings in Stuttgart and Düsseldorf for the luxury retailer Breuninger.
+
+    </div>
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/ffb41e5ebbf68897935f6a16a5fe38dd61b2966a-919x1307.jpg" >
+  <img src="images/ffb41e5ebbf68897935f6a16a5fe38dd61b2966a-919x1307.jpg" >
+  <img src="images/mendo-sneaker-freaker-1-2000x1500-c-default.jpg" class="imghover">
+   </div>
+    <div class="prg">
+         <h1>Sneaker Freaker Issue #44</h1>
+Sneaker Freaker is back with Issue 44. The cover story is the Virgil Abloh-designed Louis Vuitton X408.
+
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+
+
+<div class="read-more">
+                        <a href="#">Read More</a>
+                     </div>
+
+<footer>
+ <div class="footer">
+            <div class="container">
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Follow Us</h3>
+                     </div>
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Newsletter</h3>
+                     </div>
+                     <div class="sub">
+                     <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
+                     <button class="Subscribe">Subscribe</button></div>
+                  </div>
+               </div>
+         </div>
+
+
+  <div class="contr">
+    <center>
+    <p>Copyright 2019 All Right Reserved By Free html Templates</p></center>
+  </div>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+   </html>

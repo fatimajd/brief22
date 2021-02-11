@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+
+   	<meta charset="utf-8">
+<style type="text/css">
+
+  body{
+  margin: 0;
+  padding: 0;
+
+}
+	.logo{
+
+		padding-left: 13%;
+		padding-top: 19px;
+		height: auto;
+	}
+
+	header {
+   
+    width: 100%;
+    height: 12%;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    display: flex;
+}
+	nav ul {
+		margin: 20px;
+	}	
+
+     nav ul li {
+        
+        display: inline-block;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-family:  sans-serif;
+       text-transform: uppercase;
+       font-weight: 510;
+
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding:  0px  2px;
+  }
+
+ nav a:hover {
+	color: #b32137;
+}
+/*.bg{
+    text-align: center;
+   
+    width: 100%;
+    height: 17.1%;
+    left: 0%;
+    right: 0%;
+  background:#b32137;
+  margin:0px;
+    display: flex;
+
+}
+
+
+
+h2{
+ position: relative;
+  color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+     font-family: sans-serif;
+    line-height: 45px;
+    font-weight: 500;
+    
+}
+*/
+.bg{
+   width: 100%;
+    height: 17.1%;
+    left: 0%;
+    right: 0%;
+  background:#b32137;
+  margin:0px;
+ 
+   
+    display: flex;
+}
+.bg h2{
+  position: relative;
+  text-align: center;
+  color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+     font-family: sans-serif;
+    line-height: 45px;
+    padding: 3px 675px;
+    font-weight: 500;
+    
+}
+@media screen and (max-width: 1000px){
+    .bg h2{
+  font-size: 40px;
+  padding: 3px 408px;
+}
+}
+
+.imgg{
+  background-image: url('images/World-Book-Day.jpg');
+  width: 100%;
+  height:60%;
+  margin-right: 100px;
+  filter: blur(8px);
+  z-index: -1;
+  opacity: 0.5;
+  position: absolute;
+}
+@media screen and (max-width: 1000px){
+.imgg{
+  width: 100%;
+   height:20%;
+}
+}
+.headTr{
+  width: 100%;
+  height:400px;
+  margin-right: 100px;
+  padding: 0;
+}
+.tria{
+  position: relative;
+  text-align: center;
+  left: 20%;
+  top: 15%;
+  width:30% ;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  border-top-left-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+   transition: 1s ease;
+}
+.tria:hover{
+background-color: #81266C;
+}
+.imgbook{
+background-image: url('images/Books.jpg');
+background-size: cover;
+background-position: right;
+     position: relative;
+  left: 50%;
+  top:-85%;
+  width:30% ;
+  height: 400px;
+  align-items: center;
+  border-top-right-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+}
+
+.tria h1{
+  font-size: 70px;
+  font-family: sans-serif;
+letter-spacing: .3rem;
+  position: relative;
+    top: 40px;
+    background: -webkit-linear-gradient(#eee,#E73955);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+@media screen and (max-width: 1000px){
+    .tria h1{
+  font-size: 50px;
+  margin-top: 30px;
+}
+}
+
+
+.tria p{
+  font-size: 23px;
+  font-family: gabriola;
+
+  position: relative;
+
+   color: #F5EAEB;
+   margin-top: 0%;
+}
+
+@media screen and (max-width: 1000px){
+.tria p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+}
+
+.tria b{
+  font-size: 50px;
+  font-family: gabriola;
+
+  position: relative;
+    margin-left: 50%;
+   color: #E73955;
+ 
+}
+
+@media screen and (max-width: 1000px){
+.tria b{
+    font-size: 30px;
+    margin-top: 30px;
+}
+}
+
+
+
+.textbook{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+ display: inline-block;
+   overflow: hidden;
+  margin: 90px;
+  letter-spacing: .1rem;
+  padding: 0px;
+    margin: 10% 10%;
+
+}
+.febr{
+  font-family: sans-serif;
+  margin-left: 5%;
+  
+}
+
+
+
+.box{
+
+  width: 280px;
+  height: 500px;
+ display: inline-block;
+   overflow: hidden;
+  margin: 45px;
+  padding: 0px;
+background: white;
+border-radius: 50px;
+border:2px;
+border-style: solid;
+border-color: black;
+}
+.box:hover{
+  background: #444;
+}
+
+    
+    .boxIn{
+      position: relative;
+        width: 400px;
+        height:300px;
+        overflow: hidden;
+    }
+    
+    
+.boxIn img{
+
+  margin-right: 120px;
+  padding: 0px;
+  width: 70%;
+   height: 100%;
+
+  
+  
+}
+
+.prg{
+  width: 250px;
+  display: flex;
+  flex-direction:column;
+  margin-left: 30px;
+  
+}
+.prg h1{
+  font-family: cursive;
+}
+.prg h1:hover{
+  font-size: 35px;
+}
+.prg b{
+  font-family: sans-serif;
+  color: #E73955;
+}
+
+.contr{
+  width: 100%;
+  height: 50px;
+  
+  background-color: white;
+
+}
+.container{
+      display: flex;
+      flex-direction: row;
+    }
+    @media(max-width: 1000px){
+      .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .Newsletter {
+      width: 372px;
+    }
+    .Subscribe{
+      width: 150px;
+    }
+    }
+  .footer {
+     background: url(images/footer-bg.jpg);
+     padding-bottom: 35px;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+ .footer .Follow {
+    margin-bottom: 27px;
+}
+
+
+ .footer .Follow h3 {
+     color: #fff;
+     font-size: 25px;
+     line-height: 30px;
+     font-weight: 600;
+border-bottom: #fff solid 1px;
+    border-bottom-width: 1px;
+border-width: 1px;
+display: inline-block;
+padding-bottom: 2px;}
+ .coa {
+    color: #12dc12;
+}
+ 
+ 
+ .footer .Newsletter  {
+
+    padding: 13px 26px;
+        padding-top: 10px;
+        padding-right: 26px;
+        padding-bottom: 10px;
+        padding-left: 26px;
+    border: #fff solid 1px;
+    width: 500px;
+
+
+ }
+
+.footer .Subscribe {
+
+    padding: 10px 46px;
+margin-left: -3px;
+border: #0e0c0c solid 1px;
+background: #0e0c0c;
+color: #fff;
+
+}
+
+ ul.location_icon {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     float: left;
+}
+ ul.location_icon li {
+     float: left;
+     height: 70px;
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-right: 20px;
+}
+
+ul.location_icon li:last-child { padding-right: 0px; }
+ 
+ul.location_icon li a{
+ margin-bottom: 23px;}
+ 
+ ul.location_icon span {
+    font-size: 17px;
+     font-weight: 400;
+}
+ 
+ .copyright {
+     background-color: #fff;
+     padding: 10px 0px;
+}
+ .copyright p {
+     color: #120f0f;
+     font-size: 16px;
+     text-align: center;
+}
+ .copyright a {
+    color: #120f0f;
+}
+ .copyright a:hover {
+    color: #81256c;
+}
+.dd{
+  padding-left: 90px;
+  }
+  .sub{
+    display: flex;
+    flex-direction: row;
+  }
+  .read-more {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.read-more a{
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     text-decoration: none;
+     background-color: #81256c;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin:  0px  0px 60px 0px;
+   }
+
+.read-more a:hover {background-color:  #000;}
+
+
+.topMain{
+  text-align: center;
+}
+#checkbox {
+    display: none;
+    float: right;
+}
+
+@media(max-width: 1000px){
+
+header {
+  position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #22292F;
+    /*padding: 10px 0;
+    padding: 0%;
+    padding-bottom: 13%;*/
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 30px;
+    background: #81256c;
+    padding-bottom: 1%;
+    width: 864px;
+    height: 20%;
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.logo {
+  position: absolute;
+  padding-top: 0;
+    height: 51%;
+    width: 50%;
+    
+}
+.menu-icon {
+    font-size: 2.4em;
+    color: #ffffff;
+    line-height: 50px;
+}
+nav {
+     display: block;
+    position: absolute;
+    background-color: #FFF;
+    top:232px;
+    width: 100%;
+    height: 0;
+
+}
+nav ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 0%;
+    right: 0%;
+
+}
+nav ul li {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li a {
+font-size: 30px;
+    padding: 13px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #eb6f4a;
+}
+#checkbox {
+
+    display: none;
+    float: right;
+}
+#checkbox:checked ~ nav{
+  height: auto;
+  padding-top: 0px;
+      width: 916px;
+    right: 4%;
+}
+}
+#checkbox:checked ~ nav ul {
+    margin-top: 10px;
+    max-height: 403px;
+    padding: 15px 0;
+    transition: all 0.5s;
+
+}
+
+
+
+</style>
+
+
+
+
+
+   </head>
+
+
+
+
+<body>
+	<header class="menu">
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <div class="menu-wrap">
+             <label class="right" for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+            <input type="checkbox" id="checkbox">
+
+            <nav>
+                <ul>  
+                 <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About us</a></li>
+                    <li class="active"><a href="books.html">OUR BOOKS</a></li>
+                     <li><a href="library.html">LIBRARY</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="event.html"style="color:#b32137;">EVENT</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                    <li class="icons"> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
+                                 <li class="icons"> <a href="#"><img src="images/top-icon.png" alt="#" /></a> </li>
+                              
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+
+                        <div class="bg">
+                          <center>
+                          <h2>EVENTS</h2></center>
+                        </div>
+
+
+                        <div class="headTr">
+                          <div class="imgg"></div>
+                               <div class="tria">
+                                
+                                  <h1>WORLD BOOK DAY</h1>
+                              <p>Changing lives through a love of books and shared reading.</p>
+                                  <b> 12 february</b>
+                                      
+                                </div>
+                                <div class="imgbook">
+                                  
+                                </div>
+                        </div>
+              <div class="textbook">
+                  <p>We love books, and our friends at UNESCO agree. The United Nations Educational, Scientific and Cultural Organization proposed World Book Day as a day of celebrating the joy of reading for enjoyment.</p>
+                  <p>Children who regularly read for enjoyment have higher test scores, develop a broader vocabulary, increased general knowledge and a better understanding of other cultures than their non-reading counterparts. Whether you read traditional paperbound books or turn to your Kindle/iPad/whatever, reading’s a passport to this and many other worlds.</p>
+                       
+                     </div>
+                     <div class="febr">
+                     <h1>Everything on 2021...</h1>
+                   </div>
+
+    <div class="topMain">
+      
+    
+
+              <div class="box">
+                   <div class="boxIn">
+                         <img src="images/free-world-poetry-day-vector-design.jpg" >
+                        
+                  </div>
+                  <div class="prg">
+                    
+                        <h1>World Poetry day</h1>
+                        <B> March 24th, 2021</B>
+                 </div>
+              </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/pngtree-world-reading-day-books-and-children-png-image_4445280.jpg" >
+    </div>
+    <div class="prg">
+        <h1>World Reading Day</h1>
+                        <B>february 12th, 2021</B>
+    </div>
+  </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/R164ac01596f09ed347fadff25a4c6003.jfif" >
+    </div>
+    <div class="prg">
+        <h1>World Press Day</h1>
+                        <B>Sat Feb 13th, 2021
+</B>
+                         </div>
+  </div>
+ 
+
+   
+  
+<div class="box">
+                   <div class="boxIn">
+                         <img src="images/Publishing-Industry.jpg" >
+                  </div>
+                  <div class="prg">
+                    <h1>World Publishing Day</h1>
+                        <B>Sat Feb 13th, 2021
+</B>
+                          </div>
+              </div>
+
+   <div class="box">
+   <div class="boxIn">
+      <img src="images/1210987_preview.png" >
+    </div>
+    <div class="prg">
+        <h1>World Novel Day</h1>
+                        <B>Sun Feb 14th, 2021
+</B>
+                         </div>
+  </div>
+
+   <div class="box">
+    <div class="boxIn">
+      <img src="images/unnamed.jpg" >
+    </div>
+     <div class="prg">
+        <h1>World Book Fair</h1>
+                        <B>Sun Feb 14th, 2021
+</B>
+     </div>
+  </div>
+
+  <div class="box">
+   <div class="boxIn">
+      <img src="images/OIP (2).jfif" >
+    </div>
+    <div class="prg">
+        <h1>World Braille Day</h1>
+                        <B>January 4th, 2021
+</B>
+                          </div>
+  </div>
+ 
+
+   
+  
+<div class="box">
+                   <div class="boxIn">
+                         <img src="images/R508d28a8542fd7638b1f0270861a054c.jfif" >
+                  </div>
+                  <div class="prg">
+                    <h1>Free Reading week</h1>
+                        <B>january 15th, 2021
+</B>
+                      </div>
+
+        </div>
+              </div>
+              <div class="read-more">
+                        <a href="#">Read More</a>
+                     </div>
+
+<footer>
+ <div class="footer">
+            <div class="container">
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Follow Us</h3>
+                     </div>
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Newsletter</h3>
+                     </div>
+                     <div class="sub">
+                     <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
+                     <button class="Subscribe">Subscribe</button></div>
+                  </div>
+               </div>
+         </div>
+
+
+  <div class="contr">
+    <center>
+    <p>Copyright 2019 All Right Reserved By Free html Templates</p></center>
+  </div>
+</footer>
+ 
+
+   
+  
+
+   
+
+                
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+   </html>
